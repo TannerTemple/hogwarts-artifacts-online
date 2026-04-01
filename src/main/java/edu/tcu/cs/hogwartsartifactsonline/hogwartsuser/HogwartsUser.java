@@ -30,6 +30,8 @@ public class HogwartsUser implements Serializable {
     public HogwartsUser() {
     }
 
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)  //added, dont know if needed
     public Integer getId() {
         return id;
     }
